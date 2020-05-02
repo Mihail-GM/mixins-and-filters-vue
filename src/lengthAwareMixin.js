@@ -8,7 +8,7 @@ export const lengthAwareMixin = {
     },
     computed: {
         lengthAware() {
-            return this.secondText + ' (' + this.secondText.length+1 + ')';
+            return this.secondText + ' (' + this.secondText.length + ')';
         }
     }
 };
